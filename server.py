@@ -43,5 +43,3 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print(f"\nReceived keyboard interrupt. Shutting down server.")
         server.socket.close()
-
-
