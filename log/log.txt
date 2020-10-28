@@ -1,0 +1,6 @@
+127.0.0.1 - - [28/Oct/2020 14:21:20] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2020 14:21:20] command: E:\shiyan\venv\Scripts\python.exe -u E:\shiyan\cgi-bin\post.py ""
+127.0.0.1 - - [28/Oct/2020 14:21:20] CGI script exited OK
+127.0.0.1 - - [28/Oct/2020 14:21:47] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2020 14:21:47] command: E:\shiyan\venv\Scripts\python.exe -u E:\shiyan\cgi-bin\post.py ""
+127.0.0.1 - - [28/Oct/2020 14:21:47] CGI script exited OK
