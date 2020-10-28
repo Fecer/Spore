@@ -2,7 +2,9 @@ import socketserver
 from http.server import HTTPServer, CGIHTTPRequestHandler
 import logging
 import os
-
+import sys
+import time
+import datetime
 port = ('127.0.0.1', 8010)
 
 class fServer(socketserver.BaseRequestHandler):
@@ -37,6 +39,18 @@ class fServer(socketserver.BaseRequestHandler):
         echoHead = """HTTP/1.0 200 OK\r\nContent-Length: {}\r\nServer: Fever's\r\nContent-Type: text/html""".format(len(echoBody)).encode()
         echoAll = echoHead + b'\r\n\r\n' + echoBody + b'\r\n'
 
+class kserver( CGIHTTPRequestHandler):
+    def log_message(self, format, *args):
+        sys.stderr.write("%s - - [%s] %s\n" %
+                         (self.address_string(),
+                          self.log_date_time_string(),
+                          format%args))
+        current_path = os.path.dirname(__file__)
+        file = open(current_path + "/log/log.txt", 'a')
+        file.write("%s - - [%s] %s\n" %
+                         (self.address_string(),
+                          self.log_date_time_string(),
+                          format%args))
 
 
 if __name__ == "__main__":
@@ -44,9 +58,10 @@ if __name__ == "__main__":
     # ss = socketserver.ThreadingTCPServer(port, fServer)
     # ss.serve_forever()
     try:
-        CGIHTTPRequestHandler.cgi_directories = ['/cgi-bin']
-
-        server = HTTPServer(port, CGIHTTPRequestHandler)
+        # CGIHTTPRequestHandler.cgi_directories = ['/cgi-bin']
+        kserver.cgi_directories = ['/cgi-bin']
+        # server = HTTPServer(port, CGIHTTPRequestHandler)
+        server = HTTPServer(port, kserver)
         print(f"Running server. Use [ctrl]-c to terminate.")
         server.serve_forever()
 
