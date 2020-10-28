@@ -11,5 +11,7 @@ A Web Server in Python
 ├── index.html      # 主页
 ├── log             # 日志文件
 │   └── log.txt     
+├── database        # 数据库
+│   └── database.py   
 └── server.py       # 服务器
 ```
