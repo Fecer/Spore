@@ -1,4 +1,5 @@
 import socketserver
+from http.server import HTTPServer, CGIHTTPRequestHandler
 
 port = ('127.0.0.1', 8000)
 
@@ -30,6 +31,17 @@ class fServer(socketserver.BaseRequestHandler):
 
 
 if __name__ == "__main__":
-    ss = socketserver.ThreadingTCPServer(port, fServer)
-    ss.serve_forever()
+    # ss = socketserver.ThreadingTCPServer(port, fServer)
+    # ss.serve_forever()
+    try:
+        CGIHTTPRequestHandler.cgi_directories = ['/cgi-bin']
+
+        server = HTTPServer(port, CGIHTTPRequestHandler)
+        print(f"Running server. Use [ctrl]-c to terminate.")
+        server.serve_forever()
+
+    except KeyboardInterrupt:
+        print(f"\nReceived keyboard interrupt. Shutting down server.")
+        server.socket.close()
+
 
