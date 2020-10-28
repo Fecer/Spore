@@ -1,7 +1,7 @@
 import socketserver
 from http.server import HTTPServer, CGIHTTPRequestHandler
 
-port = ('127.0.0.1', 8000)
+port = ('127.0.0.1', 8010)
 
 class fServer(socketserver.BaseRequestHandler):
     def handle(self):

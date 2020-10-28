@@ -1,4 +1,4 @@
-#!C:\Users\SuperGG\AppData\Local\Programs\Python\Python39\python.exe
+#!/usr/bin/env python
 # The line above ^ is important. Don't leave it out. It should be at the
 # top of the file.
 
