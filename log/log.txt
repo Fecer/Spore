@@ -1,6 +1,8 @@
-127.0.0.1 - - [28/Oct/2020 14:21:20] "POST /cgi-bin/post.py HTTP/1.1" 200 -
-127.0.0.1 - - [28/Oct/2020 14:21:20] command: E:\shiyan\venv\Scripts\python.exe -u E:\shiyan\cgi-bin\post.py ""
-127.0.0.1 - - [28/Oct/2020 14:21:20] CGI script exited OK
-127.0.0.1 - - [28/Oct/2020 14:21:47] "POST /cgi-bin/post.py HTTP/1.1" 200 -
-127.0.0.1 - - [28/Oct/2020 14:21:47] command: E:\shiyan\venv\Scripts\python.exe -u E:\shiyan\cgi-bin\post.py ""
-127.0.0.1 - - [28/Oct/2020 14:21:47] CGI script exited OK
+10.63.26.114 - - HAVEN - - kenny - - 127.0.0.1 - - [28/Oct/2020 15:49:38] "GET / HTTP/1.1" 200 -
+10.63.26.114 - - HAVEN - - kenny - - 127.0.0.1 - - [28/Oct/2020 15:49:38] "GET /image/test.jpg HTTP/1.1" 200 -
+10.63.26.114 - - HAVEN - - kenny - - 127.0.0.1 - - [28/Oct/2020 15:49:40] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.26.114 - - HAVEN - - kenny - - 127.0.0.1 - - [28/Oct/2020 15:49:40] command: E:\shiyan\venv\Scripts\python.exe -u E:\shiyan\cgi-bin\post.py ""
+10.63.26.114 - - HAVEN - - kenny - - 127.0.0.1 - - [28/Oct/2020 15:49:41] CGI script exited OK
+10.63.26.114 - - HAVEN - - kenny - - 127.0.0.1 - - [28/Oct/2020 16:10:46] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.26.114 - - HAVEN - - kenny - - 127.0.0.1 - - [28/Oct/2020 16:10:46] command: E:\shiyan\venv\Scripts\python.exe -u E:\shiyan\cgi-bin\post.py ""
+10.63.26.114 - - HAVEN - - kenny - - 127.0.0.1 - - [28/Oct/2020 16:10:46] CGI script exited OK
