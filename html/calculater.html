@@ -38,6 +38,15 @@
             background-color: black;
             text-align:right; 
     	}
+		.op{
+			width: 80px;
+            height: 70px;
+            font-size: 1.5em;
+            color: white;
+            background-color: black;
+            text-align:right; 
+    	}
+		
 		
 		td
 		{
@@ -48,6 +57,9 @@
     		height: 60px;
     		background-color : lightgray;
     		font-size: 1.2em;
+		}
+		.butx:active{
+			background-color : gray;
 		}
 
     </style>
@@ -146,8 +158,7 @@
 		  </tr>
 		  <tr>
 			<td><input class="but_ac but" id="AC_1" type="button" value="AC" style="color: orange"></td>
-			<td><input class="but_ac but" id="back_1"type="button" value="<—" style="color: orange"></td>
-			<td><input class="but" id="+/-_1" type="button" value="+/-"></td>
+			<td colspan="2"><input class="but_ac but" style="width: 180px" id="back_1"type="button" value="<—" style="color: orange"></td>
 		  </tr>
 		  <tr>
 			<td><input class="but" id="7_1" type="button" value="7"></td>
@@ -172,6 +183,9 @@
 
 	</table></td>
 	<td><table>
+	<tr>
+		  <td><input maxlength="1" class="op" type="text" name="screen1" id= "op"/></td>
+		  </tr>
 		  <tr>
 			<td><input class="butx but" id="/_1"type="button" value="/"></td>
 		  </tr>
@@ -184,19 +198,19 @@
 		  <tr>
 			<td><input class="butx but" id="+_1"type="button" value="+"></td>
 		  </tr>
+		  
 	</table>
 	
 	
 	</td>
-	<a><input class="op" type="text" id= "op"></a>
+	
 	<td><table width="50%" >
 		   <tr>
 			  <td colspan="3"><input class="screen2" type="text" name="screen2" disabled /></td>
 		  </tr>
 		  <tr>
 			<td><input class="but_ac but" id="AC_2" type="button" value="AC" style="color: orange"></td>
-			<td><input class="but_ac but" id="back_2"type="button" value="<—" style="color: orange"></td>
-			<td><input class="but" id="+/-_2"type="button" value="+/-"></td>
+			<td colspan="2"><input class="but_ac but" style="width: 180px" id="back_2"type="button" value="<—" style="color: orange"></td>
 		  </tr>
 		  <tr>
 			<td><input class="but" id="7_2"type="button" value="7"></td>
