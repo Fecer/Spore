@@ -4,12 +4,6 @@
 
 import cgi, cgitb # Not used, but will be needed later.
 
-def judge_type(x):
-    if(x=="+"):
-        return str(int(form['a'].value)+int(form['b'].value))
-    else:
-        return str(int(form['a'].value)/int(form['b'].value))
-
 print("Content-type: text/html\n\n")
 
 form = cgi.FieldStorage()
@@ -18,51 +12,19 @@ form = cgi.FieldStorage()
     print("Please fill in the name and addr fields.")'''
 # Output to stdout, CGIHttpServer will take this as response to the client
 
-print("<p>Hello world!</p>")         # Start of content
 
 '''print("<p>Hello world!</p>")         # Start of content
 print ("<p>" +  form['a'].value + "</p>")'''
 
-print("<head>")
-print("<title>WOW</title>")
-print("</head>")
-print("<html>")
-print("<p>Wow, Python Server</p>")
-print('<IMG src="../image/test.jpg"/>')
-print('<form name="input" action="cgi-bin/post.py" method="post">')
-print('a:<input type="text" name="a" value="')
-try:
-    print(form['a'].value)
-except:
-    print()
-print('"><br>')
 
-
-print('b:<input type="text" name="b" value="')
-try:
-    print(form['b'].value)
-except:
-    print()
-print('"><br>')
-
-print('    res:')
-try:
-    print(judge_type(form['type'].value))
-except:
-    print()
-print('<br>')
-
-print('<input type="submit" value="Submit">')
-print('</form>')
-
-
-
-
-import cgi, cgitb # Not used, but will be needed later.
 import pymysql
 from twisted.enterprise import adbapi
 from twisted.internet import reactor
 import cgi, cgitb
+
+
+query_res={}
+
 class connectDb:
     def __init__(self, dbpool):
         self.dbpool = dbpool
@@ -99,33 +61,69 @@ class connectDb:
         # 添加异常处理
         query.addCallback(self.handle_error)  # 处理异常
 
+
     def do_insert(self, cursor, item):
         # 对数据库进行插入操作，并不需要commit，twisted会自动commit
         '''insert_sql = """
         insert into new(title,text,kind,source) VALUES(%s,%s,%s,%s)
                     """'''
-        insert_sql = "select * from new where title='{}';".format(item)
+        insert_sql = "select * from Students where Id_P={};".format(item)
         cursor.execute(insert_sql)#, (item['title'], item['text'], item['kind'],item["source"]))
         res=cursor.fetchone()
-        return res
+        global query_res
+        query_res =res
 
     def handle_error(self, failure):
         if failure:
             # 打印错误信息
             print(failure)
 
+
 id=form['id'].value
 a=connectDb.from_settings()
-query_res=a.process_item(id)
+a.process_item(id)
+
 reactor.callLater(4, reactor.stop)
 reactor.run()
 
-
-
-print('<form name="dataquery" action="cgi-bin/datatest.py" method="post">')
-print('id:<input type="text" name="id"><br>')
-print('    res:<br>')
-print('<input type="submit" value="Submit">')
-print('</form>')
-
-print('</html>')
+print('''<html>
+    <head>     
+        <title>My Website</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="home.css" />
+    </head>
+    <body>
+       <div class="bg">
+		   <div class="head">
+			<h1 align=center>
+				Welcome to our website
+			</h1>
+		   </div>
+           <div class="content">
+				<div style="height:100%;width:100%;">
+					<form name="form1" action="../cgi-bin/dataquery.py" method="post" enctype="text/plain">
+						<div class="input" style="display: flex;flex-direction: column;padding-top: 100px;padding-left: 45%;padding-right: 100px;margin: 0;height: 300px;align-items: flex-start;">
+							<span class="sp">
+								<a class="mya">Plz input your ID:&nbsp &nbsp &nbsp </a>
+								<input style:"margin-left:20px" type="text" name="text1" size="12" maxlength="20">
+							</span>
+							<span class="sp">
+								<a class="mya">Your name is：''')
+print(query_res['Name'])#name
+print('''&nbsp &nbsp &nbsp </a>
+							</span>
+							<span class="sp">
+								<a class="mya">Your class is：''')
+print(query_res['class'])#class
+print('''&nbsp &nbsp </a>
+							</span>
+						</div>
+						<div class="button" style="display: flex;padding-left: 46%;width: 200px;justify-content: center;">
+						
+								<span style="margin-left: 10px;margin-right: 30px;"><a href="index.html"><input type="button" value="Login"></a></span>
+								<span style="margin-left: 30px;margin-right: 10px;"><input type="button" name="search" value="Search"></span>						
+						</div>
+					</form>
+				</div>
+    </body>
+</html>''')

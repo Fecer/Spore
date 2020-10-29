@@ -317,3 +317,218 @@
 10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:44:36] "POST /cgi-bin/post.py HTTP/1.1" 200 -
 10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:45:12] "GET /html/calculater.html HTTP/1.1" 200 -
 10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:45:15] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:48:43] "GET /html/calculater.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:48:48] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:49:36] "GET /html/calculater.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:49:40] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:52:59] "GET /html/calculater.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:53:02] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:53:02] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:53:31] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:55:32] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:55:35] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:55:55] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:55:58] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:58:32] "GET / HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:58:32] "GET /image/photo.jpg HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:58:32] "GET /index.css HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:58:32] "GET /image/photo.JPG HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:01:18] "GET / HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:01:18] "GET /index.css HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:01:18] "GET /image/photo.jpg HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:01:18] "GET /image/photo.JPG HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:01:28] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:01:28] "GET /home HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:03:41] "GET / HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:03:41] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:03:41] "GET /index.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:03:41] "GET /image/photo.jpg HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:03:48] "GET / HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:03:48] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:03:48] "GET /index.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:03:58] "GET / HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:03:58] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:03:58] "GET /index.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:04:04] "GET / HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:04:05] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:04:05] "GET /index.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:06:03] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:06:04] "GET /image/test.jpg HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:06:45] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:07:05] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:07:41] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:09:20] "GET / HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:09:20] "GET /html/index.css HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:09:20] "GET /image/photo.jpg HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:09:20] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:09:20] "GET /html/photo.JPG HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:09:47] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:09:47] "GET /home HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:10:06] "GET /html/home.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:10:06] "GET /html/home.css HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:23:07] "GET /html/home.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:23:07] "GET /html/home.css HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:23:52] "GET /html/home.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:23:59] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:23:59] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:25:09] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:25:09] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:27:04] "GET /html/home.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:27:10] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:27:11] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:27:51] "GET /html/home.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:27:57] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:27:57] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:28:33] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:28:33] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:29:54] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:29:54] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:30:12] "GET /html/home.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:30:15] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:30:19] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:30:19] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:30:19] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:30:48] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:30:52] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:30:52] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:30:52] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:32:28] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:32:33] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:32:33] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:32:33] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:32:46] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:32:50] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:32:50] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:38:10] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:38:14] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:38:14] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:38:14] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:38:37] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:38:42] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:38:42] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:38:42] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:39:30] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:39:34] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:39:34] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:39:34] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:40:29] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:40:33] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:40:33] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:40:33] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:42:57] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:42:57] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:43:43] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:43:47] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:43:47] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:43:47] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:45:46] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:45:51] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:45:51] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:45:51] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:46:42] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:46:47] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:46:47] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:46:47] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:47:24] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:47:29] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:47:29] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:47:29] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:47:45] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:47:49] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:47:49] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:47:49] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:48:02] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:48:06] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:48:06] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:48:06] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:49:24] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:49:28] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:49:28] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:49:28] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:49:55] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:49:55] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:05] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:05] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:23] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:28] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:28] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:28] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:50] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:54] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:59] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:59] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:50:59] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:51:40] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:51:44] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:51:44] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:52:00] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:52:04] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:52:04] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:52:23] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:52:27] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:52:27] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:54:15] "GET / HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:54:15] "GET /html/index.css HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:54:15] "GET /image/photo.jpg HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:54:16] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:54:16] "GET /html/photo.JPG HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:54:17] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:54:27] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:54:27] "GET /image/test.jpg HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:54:59] "GET /html/calculater.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:55:02] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:55:49] "GET /html/calculater.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:56:05] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:57:18] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:58:21] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:58:21] "GET /html/photo.JPG HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:58:27] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 04:59:53] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:00:08] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:00:14] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:00:20] "GET /html/calculater.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:02:50] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:03:19] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:03:25] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:08:15] "GET /html/calculater.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:08:18] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:08:30] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:09] "GET / HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:09] "GET /html/index.css HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:09] "GET /image/photo.jpg HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:09] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:09] "GET /html/photo.JPG HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:11] "GET /html/calculater.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:16] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:42] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:42] "GET /html/photo.JPG HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:46] "GET /html/team.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:46] "GET /html/team.css HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:09:52] "GET /html/game.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:10:30] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:10:30] "GET /html/photo.JPG HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:10:48] "GET /html/calculater.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:10:54] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:11:04] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:11:04] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:11:12] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:11:44] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:11:44] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:12:00] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:12:08] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:12:13] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:12:19] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:12:26] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:12:30] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:12:30] CGI script exit status 0x100
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:13:23] "GET /html/home.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:13:23] "GET /html/home.css HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:13:33] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:13:37] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:13:37] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:13:53] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:13:58] code 404, message No such CGI script ('/cgi-bin/home.css')
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:13:58] "GET /cgi-bin/home.css HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:14:15] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:14:19] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 05:14:19] "GET /html/index.html HTTP/1.1" 404 -
