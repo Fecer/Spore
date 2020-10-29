@@ -138,11 +138,12 @@
 
 </head>
 <body>
+<form name="input" action="../cgi-bin/post.py" method="post">
 <table width="100%" align="center">
 <tr>
 	 <td><table width="50%">
 		  <tr>
-			  <td colspan="3"><input class="screen1" type="text" name="screen1" disabled /></td>
+			  <td colspan="3"><input class="screen1" type="text" name="screena" disabled /></td>
 		  </tr>
 		  <tr>
 			<td><input class="but_ac but" id="AC_1" type="button" value="AC" style="color: orange"></td>
@@ -188,10 +189,10 @@
 	
 	
 	</td>
-	<a><input class="op" type="text" id= "op"></a>
+	<a><input class="op" type="text" name="op" id= "op"></a>
 	<td><table width="50%" >
 		   <tr>
-			  <td colspan="3"><input class="screen2" type="text" name="screen2" disabled /></td>
+			  <td colspan="3"><input class="screen2" type="text" name="screenb" disabled /></td>
 		  </tr>
 		  <tr>
 			<td><input class="but_ac but" id="AC_2" type="button" value="AC" style="color: orange"></td>
@@ -223,7 +224,10 @@
 </tr>
 </table>
 <div align="center">
-<input class="buts" id="submit"type="button" value="SUBMIT" width="100%">
+<input class="buts" id="submit" type="submit" value="SUBMIT" width="100%">
 </div>
+</form>
+
+
 </body>
 </html>

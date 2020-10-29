@@ -282,4 +282,38 @@
 127.0.0.1 - - [30/Oct/2020 02:28:27] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
 127.0.0.1 - - [30/Oct/2020 02:28:31] "GET /image/test.jpg HTTP/1.1" 304 -
 127.0.0.1 - - [30/Oct/2020 02:29:53] "GET / HTTP/1.1" 304 -
-127.0.0.1 - - [30/Oct/2020 02:29:56] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2020 02:29:56] "POST /cgi-bin/datatest.py HTTP/1.1" 200 -10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:23:45] "GET / HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:23:45] "GET /index.css HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:23:45] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:23:45] "GET /image/photo.jpg HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:23:45] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:23:45] "GET /photo.JPG HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:23:52] code 404, message File not found
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:23:52] "GET /calculater.html HTTP/1.1" 404 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:24:34] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:27:56] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:33:48] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:35:46] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:36:01] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:36:45] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:36:48] code 501, message Can only POST to CGI scripts
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:36:48] "POST /html/cgi-bin/post.py HTTP/1.1" 501 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:38:04] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:38:08] code 501, message Can only POST to CGI scripts
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:38:08] "POST /html/cgi-bin/post.py HTTP/1.1" 501 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:39:10] code 501, message Can only POST to CGI scripts
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:39:10] "POST /html/cgi-bin/post.py HTTP/1.1" 501 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:40:09] code 501, message Can only POST to CGI scripts
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:40:09] "POST /html/cgi-bin/post.py HTTP/1.1" 501 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:40:27] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:40:31] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:40:31] "GET /image/test.jpg HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:41:40] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:41:43] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:43:35] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:43:44] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:44:05] "GET /html/calculater.html HTTP/1.1" 304 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:44:31] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:44:36] "POST /cgi-bin/post.py HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:45:12] "GET /html/calculater.html HTTP/1.1" 200 -
+10.63.132.216 - - guoziqideMacBook-Pro.local - - guoziqi - - 127.0.0.1 - - [30/Oct/2020 03:45:15] "POST /cgi-bin/post.py HTTP/1.1" 200 -
