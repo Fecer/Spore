@@ -103,10 +103,7 @@ print('''<html>
 				<div style="height:100%;width:100%;">
 					<form name="form1" action="../cgi-bin/dataquery.py" method="post" enctype="text/plain">
 						<div class="input" style="display: flex;flex-direction: column;padding-top: 100px;padding-left: 45%;padding-right: 100px;margin: 0;height: 300px;align-items: flex-start;">
-							<span class="sp">
-								<a class="mya">Plz input your ID:&nbsp &nbsp &nbsp </a>
-								<input style:"margin-left:20px" type="text" name="text1" size="12" maxlength="20">
-							</span>
+					
 							<span class="sp">
 								<a class="mya">Your name is：''')
 print(query_res['Name'])#name
@@ -120,8 +117,7 @@ print('''&nbsp &nbsp </a>
 						</div>
 						<div class="button" style="display: flex;padding-left: 46%;width: 200px;justify-content: center;">
 						
-								<span style="margin-left: 10px;margin-right: 30px;"><a href="index.html"><input type="button" value="Login"></a></span>
-								<span style="margin-left: 30px;margin-right: 10px;"><input type="button" name="search" value="Search"></span>						
+								<span style="margin-left: 30px;margin-right: 10px;"><input type="button" name="back" value="Back"></span>						
 						</div>
 					</form>
 				</div>
