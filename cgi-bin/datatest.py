@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/opt/anaconda3/bin/python3.8
 # The line above ^ is important. Don't leave it out. It should be at the
 # top of the file.
 
@@ -54,4 +54,23 @@ print('<br>')
 
 print('<input type="submit" value="Submit">')
 print('</form>')
+
+
+
+
+import cgi, cgitb # Not used, but will be needed later.
+import pymysql
+from twisted.enterprise import adbapi
+from twisted.internet import reactor
+import cgi, cgitb
+
+
+
+
+print('<form name="dataquery" action="cgi-bin/datatest.py" method="post">')
+print('id:<input type="text" name="id"><br>')
+print('    res:<br>')
+print('<input type="submit" value="Submit">')
+print('</form>')
+
 print('</html>')
