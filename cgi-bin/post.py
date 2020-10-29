@@ -6,8 +6,12 @@ import cgi, cgitb # Not used, but will be needed later.
 
 def judge_type(x):
     if(x=="+"):
-        return str(int(form['a'].value)+int(form['b'].value))
-    else:
+        return str(int(form['screena'].value)+int(form['screenb'].value))
+    elif (x=="-"):
+        return str(int(form['a'].value)-int(form['b'].value))
+    elif (x=='*'):
+        return str(int(form['a'].value)*int(form['b'].value))
+    elif (x=="/"):
         return str(int(form['a'].value)/int(form['b'].value))
 
 print("Content-type: text/html\n\n")
@@ -32,7 +36,7 @@ print('<IMG src="../image/test.jpg"/>')
 print('<form name="input" action="cgi-bin/post.py" method="post">')
 print('a:<input type="text" name="a" value="')
 try:
-    print(form['a'].value)
+    print(form['screena'].value)
 except:
     print()
 print('"><br>')
@@ -40,14 +44,14 @@ print('"><br>')
 
 print('b:<input type="text" name="b" value="')
 try:
-    print(form['b'].value)
+    print(form['screenb'].value)
 except:
     print()
 print('"><br>')
 
 print('    res:')
 try:
-    print(judge_type(form['type'].value))
+    print(judge_type(form['op'].value))
 except:
     print()
 print('<br>')

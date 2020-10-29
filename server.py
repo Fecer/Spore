@@ -74,7 +74,7 @@ class kserver( CGIHTTPRequestHandler):
                           format%args))
         current_path = os.path.dirname(__file__)
 
-        file = open(current_path + "/log/log.txt", 'a')
+        file = open("log/log.txt", 'a')
         file.write(hostip)
         file.write(" - - ")
         file.write(hostname)
