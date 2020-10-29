@@ -1,12 +1,27 @@
 import socketserver
+import socket
 from http.server import HTTPServer, CGIHTTPRequestHandler
 import logging
 import os
 import sys
+import getpass
 import time
 import datetime
-port = ('127.0.0.1', 8010)
 
+port = ('127.0.0.1', 8010)
+def get_host_ip():
+    """
+    查询本机ip地址
+    :return:
+    """
+    try:
+        s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+        s.connect(('8.8.8.8',80))
+        ip=s.getsockname()[0]
+    finally:
+        s.close()
+
+    return ip
 class fServer(socketserver.BaseRequestHandler):
     def handle(self):
         print("Connection:  ", self.request)
@@ -41,12 +56,33 @@ class fServer(socketserver.BaseRequestHandler):
 
 class kserver( CGIHTTPRequestHandler):
     def log_message(self, format, *args):
+        hostname = socket.gethostname()  # 获取当前主机名
+        username = getpass.getuser()  # 获取当前用户名
+        hostip = get_host_ip()
+        # fullname=socket.getfqdn(hostname)
+        sys.stderr.write(hostip)
+        sys.stderr.write(" - - ")
+        sys.stderr.write(hostname)
+        sys.stderr.write(" - - ")
+        # sys.stderr.write(fullname)
+        # sys.stderr.write(" - - ")
+        sys.stderr.write(username)
+        sys.stderr.write(" - - ")
         sys.stderr.write("%s - - [%s] %s\n" %
                          (self.address_string(),
                           self.log_date_time_string(),
                           format%args))
         current_path = os.path.dirname(__file__)
-        file = open( "log/log.txt", 'a')
+
+        file = open(current_path + "/log/log.txt", 'a')
+        file.write(hostip)
+        file.write(" - - ")
+        file.write(hostname)
+        file.write(" - - ")
+        # file.write(fullname)
+        # file.write(" - - ")
+        file.write(username)
+        file.write(" - - ")
         file.write("%s - - [%s] %s\n" %
                          (self.address_string(),
                           self.log_date_time_string(),
