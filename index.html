@@ -1,45 +1,18 @@
-<!DOCTYPE html>
+<head>
+<title>WOW</title>
+</head>
 <html>
-    <meta name="content-type" content="text/html; charset=UTF-8">
-    <head>
-        <title>Calculator</title>
+<p>Wow, Python Server</p>
+<IMG src="image/test.jpg"/>
+<form name="input" action="cgi-bin/post.py" method="post">
+a:<input type="text" name="a"><br>
+b:<input type="text" name="b"><br>
+    type:<input type="text" name="type"><br>
+    res:<br>
+<input type="submit" value="Submit">
+</form>
 
-        <!--将按键内容以字符串形式存储在文字框中当按钮为“=”时，调用eval方法计算结果然后将结果输出文字框中-->
-
-<script type="text/javascript">
-    var numresult;
-    var str;
-
-    function onclicknum(nums) {
-
-        str = document.getElementById("nummessege");
-        str.value = str.value + nums;
-
-    }
-
-    function onclickclear() {
-
-        str = document.getElementById("nummessege");
-        str.value = "";
-
-    }
-
-    function onclickresult() {
-
-        str = document.getElementById("nummessege");
-        numresult = eval(str.value);
-        str.value = numresult;
-
-    }
-</script>
-
-    </head>
-
-    <body bgcolor="affff" >
-
-    <!--定义按键表格,每个按键对应一个事件触发-->
-
-        <table border="1" align="center" bgColor="#bbff77"
+<table border="1" align="center" bgColor="#bbff77"
             style="height: 350px; width: 270px">
             <tr>
                 <td colspan="4">
@@ -149,6 +122,4 @@
 
 
         </table>
-
-    </body>
 </html>
