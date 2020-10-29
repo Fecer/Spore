@@ -38,7 +38,7 @@ class fServer(socketserver.BaseRequestHandler):
         src=self.client_address[0]
         labels = []
         current_path = os.path.dirname(__file__)
-        file = open(current_path + "/log/log.txt", 'w+')
+        file = open("log/log.txt", 'w+')
         file.write('recv http request to {} from {}    method:{} version:{}\n'.format(
             url,src,method,version))
         logging.info('recv http request to {} from {}    method:{} version:{}'.format(
@@ -73,6 +73,7 @@ class kserver( CGIHTTPRequestHandler):
                           self.log_date_time_string(),
                           format%args))
         current_path = os.path.dirname(__file__)
+
         file = open(current_path + "/log/log.txt", 'a')
         file.write(hostip)
         file.write(" - - ")
