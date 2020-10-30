@@ -5,7 +5,7 @@
     <style type="text/css">
     	table{
     		
-    		margin:10 auto;
+    		margin:0 auto;
             
     	}
 		
@@ -23,7 +23,7 @@
     		font-size: 1.2em;
     	}
     	.screen1{
-    		width: 350px;
+    		width: 265px;
             height: 70px;
             font-size: 1.5em;
             color: white;
@@ -31,13 +31,36 @@
             text-align:right; 
     	}
 		.screen2{
-    		width: 350px;
+    		width: 265px;
             height: 70px;
             font-size: 1.5em;
             color: white;
             background-color: black;
             text-align:right; 
     	}
+		.op{
+			width: 80px;
+            height: 70px;
+            font-size: 1.5em;
+            color: white;
+            background-color: black;
+            text-align:right; 
+    	}
+		
+		
+		td
+		{
+			text-align:center;
+		}
+		.buts{
+			width: 160px;
+    		height: 60px;
+    		background-color : lightgray;
+    		font-size: 1.2em;
+		}
+		.butx:active{
+			background-color : gray;
+		}
 
     </style>
 
@@ -55,10 +78,10 @@
 
 					if(this.id=="AC_1"){
 						scr1.value="";
-					  }
+					}
 					else if(this.id=="AC_2"){
 						scr2.value="";
-					  }
+					}
 					else if (this.id=="back_1"){      
 					  scr1.value=scr1.value.substr(0,scr1.value.length-1);
 					}
@@ -79,6 +102,22 @@
 					 {
 						scr2.value+=this.value;
 					 }
+					 else if(this.id=="+_1")
+					 {
+						op.value+=this.value;
+					 }
+					 else if(this.id=="-_1")
+					 {
+						op.value+=this.value;
+					 }
+					 else if(this.id=="*_1")
+					 {
+						op.value+=this.value;
+					 }
+					 else if(this.id=="/_1")
+					 {
+						op.value+=this.value;
+					 }
 					 else{
 						src1.value+="1";
 					 }
@@ -91,16 +130,16 @@
 
 </head>
 <body>
+<form name="input" action="../cgi-bin/post.py" method="post">
 <table width="100%" align="center">
 <tr>
-	 <td><table width="100%">
+	 <td><table width="50%">
 		  <tr>
-			  <td colspan="3"><input class="screen1" type="text" disabled /></td>
+			  <td colspan="3"><input class="screen1" type="text" name="screena"/></td>
 		  </tr>
 		  <tr>
 			<td><input class="but_ac but" id="AC_1" type="button" value="AC" style="color: orange"></td>
-			<td><input class="but_ac but" id="back_1"type="button" value="<—" style="color: orange"></td>
-			<td><input class="but" id="" type="button" value="+/-"></td>
+			<td colspan="2"><input class="but_ac but" style="width: 180px" id="back_1"type="button" value="<-" style="color: orange"></td>
 		  </tr>
 		  <tr>
 			<td><input class="but" id="7_1" type="button" value="7"></td>
@@ -124,34 +163,37 @@
 		 
 
 	</table></td>
-	<td><table align="center">
-		  <tr>
-			<td><input class="but" id="/_1"type="button" value="/"></td>
-		  </tr>
-		  <tr>
-			<td><input class="but" id="*_1"type="button" value="*"></td>
-		  </tr>
-		  <tr>
-			<td><input class="but" id="-_1"type="button" value="-"></td>
-		  </tr>
-		  <tr>
-			<td><input class="but" id="+_1"type="button" value="+"></td>
-		  </tr>
-		 
+	<td><table>
+	<tr>
 
+		  <td><input maxlength="1" class="op" type="text" name="op" id= "op"/></td>
+
+		  </tr>
+		  <tr>
+			<td><input class="butx but" id="/_1"type="button" value="/"></td>
+		  </tr>
+		  <tr>
+			<td><input class="butx but" id="*_1"type="button" value="*"></td>
+		  </tr>
+		  <tr>
+			<td><input class="butx but" id="-_1"type="button" value="-"></td>
+		  </tr>
+		  <tr>
+			<td><input class="butx but" id="+_1"type="button" value="+"></td>
+		  </tr>
+		  
 	</table>
 	
 	
 	</td>
 
-	<td><table width="100%" >
+	<td><table width="50%" >
 		   <tr>
-			  <td colspan="4"><input class="screen2" type="text" disabled /></td>
+			  <td colspan="3"><input class="screen2" type="text" name="screenb" /></td>
 		  </tr>
 		  <tr>
 			<td><input class="but_ac but" id="AC_2" type="button" value="AC" style="color: orange"></td>
-			<td><input class="but_ac but" id="back_2"type="button" value="<—" style="color: orange"></td>
-			<td><input class="but" id=""type="button" value="+/-"></td>
+			<td colspan="2"><input class="but_ac but" style="width: 180px" id="back_2"type="button" value="<-" style="color: orange"></td>
 		  </tr>
 		  <tr>
 			<td><input class="but" id="7_2"type="button" value="7"></td>
@@ -177,6 +219,11 @@
 	</table></td>
 </tr>
 </table>
+<div align="center">
+<input class="buts" id="submit" type="submit" value="SUBMIT" width="100%">
+</div>
+</form>
+
 
 </body>
 </html>
